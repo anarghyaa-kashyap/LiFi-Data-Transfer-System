@@ -5,8 +5,6 @@ Anarghyaa Kashyap  PES1UG24AM039
 
 # LiFi Data Transfer System
 
-# LiFi Morse Receiver with Environmental Sensing
-
 A LiFi-based data transmission system built on Arduino UNO that receives 
 text messages transmitted as Morse code light pulses via a mobile phone 
 flashlight, decodes them, and displays the result on a 16x2 LCD. Also 
