@@ -95,10 +95,3 @@ lifi-morse-receiver-arduino/
 
 Row 1: Decoded message (e.g. HELLO WORLD)
 Row 2: T:29C H:27% (live environmental data)
-
-## Team
-
-Ahana Sharan - PES1UG24AM020
-Anarghyaa Kashyap - PES1UG24AM039
-
-PESU - MPCA Project, 2026
