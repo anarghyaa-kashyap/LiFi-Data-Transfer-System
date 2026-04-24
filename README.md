@@ -48,7 +48,6 @@ message on the LCD.
 | D4          | LCD D5 (Pin 12)   |
 | D5          | LCD D4 (Pin 11)   |
 | D7          | DHT11 DATA        |
-| D8          | Buzzer +          |
 | D11         | LCD EN (Pin 6)    |
 | D12         | LCD RS (Pin 4)    |
 | 5V          | LCD Pin 2, DHT11  |
@@ -60,7 +59,6 @@ Install these via Arduino IDE Library Manager:
 
 - LiquidCrystal (built-in)
 - DHT sensor library by Adafruit
-- Adafruit Unified Sensor
 
 ## Setup
 
@@ -83,15 +81,10 @@ The timing constants in the code were measured experimentally:
 - WORD_GAP_MIN 2300ms
 - NEW_MSG_GAP 3000ms
 
-These values may need adjustment depending on your LDR and app speed.
+These values may need adjustment depending on your LDR, App Speed and External Light in the Environment.
 
 ## Project Structure
 
 lifi-morse-receiver-arduino/
 ├── main.ino
 └── README.md
-
-## Output
-
-Row 1: Decoded message (e.g. HELLO WORLD)
-Row 2: T:29C H:27% (live environmental data)
